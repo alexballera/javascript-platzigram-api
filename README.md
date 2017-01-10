@@ -3,7 +3,7 @@
 ## Componentes
 ### Producción
 ```bash
-npm i -S micro request-promise uuid-base62 babel-runtime
+npm i -S micro request request-promise uuid-base62 babel-runtime
 ```
 ### Desarrollo
 ```bash
