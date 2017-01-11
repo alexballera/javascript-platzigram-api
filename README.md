@@ -3,12 +3,16 @@
 ## Componentes
 ### Producción
 ```bash
-npm i -S micro request request-promise uuid-base62 babel-runtime
+npm i -S micro request request-promise uuid-base62 babel-runtime http-hash babel-plugin-transform-async-to-generator
 ```
 ### Desarrollo
 ```bash
-npm i -D ava standard babel-eslint test-listen
+npm i -D ava standard babel-eslint test-listen transform-runtime  babel-preset-latest babel-register
 ```
 ## Microservicios con Micro
 *Micro — Async ES6 HTTP microservices*
 [https://github.com/zeit/micro](https://github.com/zeit/micro)
+
+### Http Hash para el manejo de las rutas con micro 
+[https://github.com/Matt-Esch/http-hash](https://github.com/Matt-Esch/http-hash)
+
