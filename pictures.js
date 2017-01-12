@@ -27,7 +27,16 @@ hash.set('POST /', async function postPicture (req, res, params) {
   let image = await json(req)
   await db.connect()
   let created = await db.saveImage(image)
+  await db.disconnet()
   send(res, 201, created)
+})
+
+hash.set('POST /:id/like', async function likePicture (req, res, params) {
+  let id = params.id
+  await db.connect()
+  let image = await db.likeImage(id)
+  await db.disconnet()
+  send(res, 200, image)
 })
 
 export default async function main (req, res) {
