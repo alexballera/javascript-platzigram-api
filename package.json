@@ -4,7 +4,7 @@
   "description": "Práctica de Javascript: Creando una APP Tipo Instagram - API ",
   "scripts": {
     "lint": "standard",
-    "test": "npm run lint && ava"
+    "test": "npm run lint && NODE_ENV=test ava test/**-test.js"
   },
   "ava": {
     "require": "babel-register"
