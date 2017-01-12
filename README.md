@@ -29,4 +29,4 @@ Nos ubicamos en la carpeta del proyecto **platzigram-api** y enlazamos
 $ sudo npm link ../platzigram-db
 ```  
 
-### Terminado Video 3 "Creacion de endpoint Get Picture"  
+### Terminado Video 4 "Creacion de endpoint POST Picture"  
